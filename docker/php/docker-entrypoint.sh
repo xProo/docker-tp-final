@@ -9,6 +9,8 @@ composer install
 npm install
 npm run build
 
+php artisan migrate
+
 # Copier le fichier .env si nécessaire
 if [ ! -f .env ]; then
     cp .env.example .env
